@@ -1,0 +1,269 @@
+@font-face {
+	font-family: "Circular Sp Vit Black Italic Web";
+	src: url("fonts/Circular Sp Vit Web Black Italic.woff") format("woff"),
+		 url("fonts/Circular Sp Vit Web Black Italic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Circular Sp Vit Black Web";
+	src: url("fonts/Circular Sp Vit Web Black.woff") format("woff"),
+		 url("fonts/Circular Sp Vit Web Black.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Circular Sp Vit Bold Italic Web";
+	src: url("fonts/Circular Sp Vit Web Bold Italic.woff") format("woff"),
+		 url("fonts/Circular Sp Vit Web Bold Italic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Circular Sp Vit Bold Web";
+	src: url("fonts/Circular Sp Vit Web Bold.woff") format("woff"),
+		 url("fonts/Circular Sp Vit Web Bold.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Circular Sp Vit Book Italic Web";
+	src: url("fonts/Circular Sp Vit Web Book Italic.woff") format("woff"),
+		 url("fonts/Circular Sp Vit Web Book Italic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Circular Sp Vit Book Web";
+	src: url("fonts/Circular Sp Vit Web Book.woff") format("woff"),
+		 url("fonts/Circular Sp Vit Web Book.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Circular Sp Vit Light Italic Web";
+	src: url("fonts/Circular Sp Vit Web Light Italic.woff") format("woff"),
+		 url("fonts/Circular Sp Vit Web Light Italic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Circular Sp Vit Light Web";
+	src: url("fonts/Circular Sp Vit Web Light.woff") format("woff"),
+		 url("fonts/Circular Sp Vit Web Light.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Circular Sp Vit Medium Italic Web";
+	src: url("fonts/Circular Sp Vit Web Medium Italic.woff") format("woff"),
+		 url("fonts/Circular Sp Vit Web Medium Italic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Circular Sp Vit Medium Web";
+	src: url("fonts/Circular Sp Vit Web Medium.woff") format("woff"),
+		 url("fonts/Circular Sp Vit Web Medium.woff2") format("woff2");
+}
+
+*{
+    font-family: Circular Sp Vit Black Web;
+}
+
+.navbar{
+    padding-top: 7px; 
+    background-color: rgba(0, 0, 0, 0.5);  
+}
+
+
+.jumbotron-first{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #2d46b9;
+}
+.jumbotron-first p{
+    font-size: 14px;
+}
+.jumbotron-first h1{
+    font-size: 64px;
+}
+.kpop-img{
+    margin: 0 auto;
+}
+.premium-decription{
+    font-family: Circular Sp Vit Light Web !important;
+    font-size: 13px;
+}
+
+.btn-premium{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #2d46b9;
+    color: white;
+    border: none;
+    border-radius: 500px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 17px 48px;
+    letter-spacing: 2px;
+    line-height: 14px;
+    font-family: Circular Sp Vit Light Web;
+    
+}
+
+.btn-premium:hover{
+    background-color: white;
+    color: black;
+}
+
+.btn-player{
+    background-color: white;
+    border: 2px solid #616467;
+    color: #616467;
+    border-radius: 500px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 17px 48px;
+    letter-spacing: 2px;
+    line-height: 14px;
+    font-family: Circular Sp Vit Light Web;
+}
+
+.btn-player:hover{
+    background-color: #616467;
+    color: white;
+}
+
+.jumbotron-second{
+    line-height: 24px;
+}
+.container-player{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.card{
+    margin: 1.3rem;
+}
+
+.container-album{
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+
+.row-footer-1{
+    height: 346px;
+    padding-top: 80px;
+}
+.footer-icon{
+    font-size: 44px;
+    margin-left: 10px;
+}
+dl{
+    line-height: 24px;
+	font-family: Circular Sp Vit Light Web;
+    
+}
+dt{
+    color:#919496;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.96px;
+    line-height: 16.8px;
+    margin: 20px 0px;
+    text-transform: uppercase;
+}
+a:hover{
+    color: #1ed760 !important;
+}
+.card-img-overlay{
+    line-height: 51px;
+    color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .2s ease;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.card:hover .card-img-overlay {
+    opacity: 1;
+}
+.card-title{
+    padding-top: 100px;
+    font-size: 32px;
+}
+.card-text{
+    font-size: 18px;
+    font-family: Circular Sp Vit Light Web !important;
+}
+.card-link{
+    color: #1ed760 !important;
+}
+.card-link{
+    text-transform: uppercase;
+}
+
+/* login page */
+
+
+.btn-facebook{
+    background-color: rgba(59,89,153 ,1);
+    color: white;
+}
+.btn-apple{
+    background-color: black;
+    color: white;
+}
+.btn-google{
+    background-color: white;
+    color: #616467 !important;
+    border: 2px solid #616467 !important;
+}
+.btn-phone{
+    background-color: white;
+    color: #616467 !important;
+    border: 2px solid #616467 !important;
+}
+/* hover */
+.btn-facebook:hover{
+   color: white;
+   background-color:rgba(59,89,153 ,.8);
+}
+.btn-apple:hover{
+    color: white;
+   background-color:rgba(0,0,0 ,.8);
+}
+.btn-google:hover{
+   background-color:rgba(0,0,0 ,.8);
+   color: white !important;
+}
+.btn-phone:hover{
+    background-color:rgba(0,0,0 ,.8);
+    color: white !important;
+}
+.btn-login-page{
+    text-transform: uppercase;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: none;
+    border-radius: 500px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 17px;  
+    letter-spacing: 2px;
+    line-height: 14px;
+    font-family: Circular Sp Vit Light Web;
+}
+
+#login-btn{
+    color: white;
+    background-color: #1ed760;
+}
+@media (min-width: 576px){
+    .container-login-page{
+        max-width: 480px !important;
+    }
+}
+@media (max-width: 993px){
+    .card-title{
+        padding-top: 10% !important;
+        font-size: 23px !important;
+    }
+}
